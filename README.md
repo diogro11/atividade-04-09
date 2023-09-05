@@ -1,15 +1,14 @@
 # atividade-04-09
-CREATE TABLE aluno_teste2(
-nome varchar (150),
-idade int ,
-ra varchar (4000),
-email varchar (1000),
- endereço varchar (1000)
-);
- 
-insert INTO aluno_teste2(nome, idade, ra, email, endereço) VALUES ('diogo','19','1234','diogo12@gmail.com''rua santos dumont');
-insert INTO aluno_teste2(nome, idade, ra, email,endereço) VALUES ('joao','18','12345','joao@hotmail.com','rua valdemir do santos');
-insert into aluno_teste2(nome, idade,ra,email,endereço) VALUES ('pedro','20','122321''pedro188@gmail.com''ruagladiador da silva');
-insert into aluno_teste2(nome, idade,ra,email,endereço) values ('vitor','20','12321''vic@gmail.com','ruajuventosali');
-insert into aluno_teste2(nome, idade,ra,email,endereço) VALUES ('gabriel','23','1233221,'gabs@gmail.com','ruasantosissoai');
-                                                                SELECT nome, ra, idade, email, endereço from aluno_teste2;
+CREATE TABLE Aluno_Teste(
+  nome varchar(200),
+  idade int,
+  ra int,
+  email varchar(1000),
+  endereco varchar (1000)
+  );
+INSERt into Aluno_Teste (nome, idade, ra, email, endereco) VALUES ('diogo', '19','123','diogo@gmail.com','rua santos do nada');
+INSERT into Aluno_Teste (nome, idade, ra, email, endereco) VALUES ('joca','19','132','joca13@hotmail.com','rua jesus pires'); 
+INSERT into Aluno_Teste (nome, idade, ra, email, endereco) VALUES ('jose','23','1542','jos3@gmail.com','rua andre martins');
+INSERT into Aluno_Teste (nome, idade, ra, email, endereco) VALUES ('mark','21','12234', 'mark@gmail.com','rua washington luis'); 
+INSERT into Aluno_Teste (nome, idade, ra, email, endereco) VALUES ('juan','20', '1982', 'ju@n20gmail.com','rua trujilo'); 
+ SELECT nome, idade, ra, email, endereco  FROM Aluno_Teste;  
