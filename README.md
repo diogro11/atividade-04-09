@@ -1,1 +1,1 @@
-Sistema de feedbacks, feito para os colaboradores do (SPMKT) do prédio 12. O sistema conta com o login dos usuários, comentários editáveis, sem limitação e privação de mensagens que não colaboram com os objetivos de sua criação, utilizaremos HTML, CSS E Python, guardando os dados em tabelas SQL, nela teremos: Usuário/colaborador, Senha e Comentário.
+
